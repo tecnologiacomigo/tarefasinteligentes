@@ -1,0 +1,38 @@
+.app {
+      display: flex;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .task-manager, .chat-assistant {
+      flex: 1;
+    }
+
+    .task-form, .chat-box {
+      margin-bottom: 1rem;
+    }
+
+    input, textarea, button {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+      padding: 0.5rem;
+    }
+
+    .task-list {
+      margin-top: 1rem;
+    }
+
+    .task-item {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin-bottom: 0.5rem;
+      border-radius: 4px;
+    }
+
+    .chat-response {
+      background-color: #f5f5f5;
+      padding: 1rem;
+      border-radius: 4px;
+      margin-top: 1rem;
+    }
